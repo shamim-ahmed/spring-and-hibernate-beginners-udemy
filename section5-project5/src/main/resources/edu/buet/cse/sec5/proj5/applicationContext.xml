@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+  <context:property-placeholder location="classpath:/edu/buet/cse/sec5/proj5/sport.properties"/>
+  <bean id="hfService" class="edu.buet.cse.sec5.proj5.HappyFortuneService" />
+
+  <bean id="myCoach" class="edu.buet.cse.sec5.proj5.CricketCoach">
+    <property name="fortuneService" ref="hfService" />
+    <property name="emailAddress" value="${foo.email}" />
+    <property name="team" value="${foo.team}" />
+  </bean>
+</beans>
