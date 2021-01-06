@@ -10,10 +10,6 @@ public class CricketCoach implements Coach {
 
   private FortuneService fortuneService;
 
-  public FortuneService getFortuneService() {
-    return fortuneService;
-  }
-
   public void setFortuneService(FortuneService fortuneService) {
     this.fortuneService = fortuneService;
   }
