@@ -8,10 +8,10 @@
     <relativePath /> <!-- lookup parent from repository -->
   </parent>
   <groupId>edu.buet.cse</groupId>
-  <artifactId>section6-project1</artifactId>
+  <artifactId>section6-project2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Section 6 - Project 1</name>
-  <description>This project demonstrates how to use different bean scopes</description>
+  <name>Section 6 - Project 2</name>
+  <description>This project demonstrates how to declare custom init and destroy methods for a bean</description>
 
   <dependencies>
     <dependency>
