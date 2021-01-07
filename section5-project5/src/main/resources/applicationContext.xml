@@ -7,9 +7,9 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
   <context:property-placeholder location="classpath:/edu/buet/cse/sec5/proj5/sport.properties"/>
-  <bean id="hfService" class="edu.buet.cse.sec5.proj5.HappyFortuneService" />
+  <bean id="hfService" class="edu.buet.cse.section5.project5.HappyFortuneService" />
 
-  <bean id="myCoach" class="edu.buet.cse.sec5.proj5.CricketCoach">
+  <bean id="myCoach" class="edu.buet.cse.section5.project5.CricketCoach">
     <property name="fortuneService" ref="hfService" />
     <property name="emailAddress" value="${foo.email}" />
     <property name="team" value="${foo.team}" />

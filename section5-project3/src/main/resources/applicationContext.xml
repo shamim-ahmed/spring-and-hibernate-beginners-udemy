@@ -6,9 +6,9 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-  <bean id="hfService" class="edu.buet.cse.sec5.proj3.HappyFortuneService" />
+  <bean id="hfService" class="edu.buet.cse.section5.project3.HappyFortuneService" />
 
-  <bean id="myCoach" class="edu.buet.cse.sec5.proj3.CricketCoach">
+  <bean id="myCoach" class="edu.buet.cse.section5.project3.CricketCoach">
     <property name="fortuneService" ref="hfService" />
   </bean>
 </beans>

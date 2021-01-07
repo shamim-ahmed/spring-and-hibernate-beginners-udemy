@@ -8,7 +8,7 @@
     <relativePath /> <!-- lookup parent from repository -->
   </parent>
   <groupId>edu.buet.cse</groupId>
-  <artifactId>section4-project2</artifactId>
+  <artifactId>section5-project2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Section 5 - Project 2</name>
 
