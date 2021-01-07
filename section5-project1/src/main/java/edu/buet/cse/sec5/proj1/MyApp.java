@@ -7,7 +7,7 @@ public class MyApp {
   public static void main(String... args) {
     // create application context
     ClassPathXmlApplicationContext appContext =
-        new ClassPathXmlApplicationContext("/edu/buet/cse/sec5/proj1/applicationContext.xml");
+        new ClassPathXmlApplicationContext("applicationContext.xml");
 
     // retrieve the beans
     Coach myCoach = appContext.getBean("myCoach", Coach.class);
