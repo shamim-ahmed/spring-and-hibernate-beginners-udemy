@@ -10,8 +10,8 @@
   <groupId>edu.buet.cse</groupId>
   <artifactId>section7-project3</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Section 7 - Project 2</name>
-  <description>This project demonstrates how default bean names are derived while using annotations</description>
+  <name>Section 7 - Project 3</name>
+  <description>This project contains solution to the exercise for section 7</description>
 
   <dependencies>
     <dependency>
