@@ -1,4 +1,4 @@
-package edu.buet.cse.section8.project3;
+package edu.buet.cse.section8.project4;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -8,7 +8,7 @@ public class TennisCoach implements Coach {
   private FortuneService fortuneService;
 
   @Autowired
-  public void setFortuneService(FortuneService fortuneService) {
+  public void initialize(FortuneService fortuneService) {
     this.fortuneService = fortuneService;
   }
 
