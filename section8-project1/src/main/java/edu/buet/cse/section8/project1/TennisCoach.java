@@ -3,7 +3,7 @@ package edu.buet.cse.section8.project1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component("myTennisCoach")
+@Component
 public class TennisCoach implements Coach {
   private FortuneService fortuneService;
 
