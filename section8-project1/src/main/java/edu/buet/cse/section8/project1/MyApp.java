@@ -10,9 +10,9 @@ public class MyApp {
         new ClassPathXmlApplicationContext("applicationContext.xml");
 
     // retrieve the bean
-    Coach coach = appContext.getBean(Coach.class);
-    System.out.println(coach.getDailyWorkout());
-    System.out.println(coach.getDailyFortune());
+    Coach tennisCoach = appContext.getBean("myTennisCoach", Coach.class);
+    System.out.println(tennisCoach.getDailyWorkout());
+    System.out.println(tennisCoach.getDailyFortune());
 
     // close the context
     appContext.close();
