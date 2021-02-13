@@ -8,10 +8,10 @@
     <relativePath /> <!-- lookup parent from repository -->
   </parent>
   <groupId>edu.buet.cse</groupId>
-  <artifactId>section8-project2</artifactId>
+  <artifactId>section8-project3</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Section 8 - Project 2</name>
-  <description>This project demonstrates autowiring</description>
+  <name>Section 8 - Project 3</name>
+  <description>This project demonstrates autowiring using setter method</description>
 
   <dependencies>
     <dependency>
