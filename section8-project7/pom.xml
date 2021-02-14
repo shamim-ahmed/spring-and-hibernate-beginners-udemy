@@ -8,10 +8,10 @@
     <relativePath /> <!-- lookup parent from repository -->
   </parent>
   <groupId>edu.buet.cse</groupId>
-  <artifactId>section8-project6</artifactId>
+  <artifactId>section8-project7</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Section 8 - Project 6</name>
-  <description>This project demonstrates the use of Qualifier annotation</description>
+  <name>Section 8 - Project 7</name>
+  <description>This project demonstrates a special rule regarding the derivation of bean name</description>
 
   <dependencies>
     <dependency>
