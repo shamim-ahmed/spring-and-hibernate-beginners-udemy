@@ -3,7 +3,7 @@ package edu.buet.cse.section8.project6;
 import org.springframework.stereotype.Component;
 
 @Component
-public class RESTFortuneService implements FortuneService {
+public class RestFortuneService implements FortuneService {
 
   @Override
   public String getFortune() {

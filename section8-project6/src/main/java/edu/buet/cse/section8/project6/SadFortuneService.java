@@ -1,5 +1,8 @@
 package edu.buet.cse.section8.project6;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class SadFortuneService implements FortuneService {
 
   @Override
