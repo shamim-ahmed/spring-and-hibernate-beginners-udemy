@@ -8,9 +8,9 @@
     <relativePath /> <!-- lookup parent from repository -->
   </parent>
   <groupId>edu.buet.cse</groupId>
-  <artifactId>section10-project3</artifactId>
+  <artifactId>section10-project2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Section 10 - Project 3</name>
+  <name>Section 10 - Project 2</name>
   <description>This project demonstrates configuration using annotation</description>
 
   <dependencies>
