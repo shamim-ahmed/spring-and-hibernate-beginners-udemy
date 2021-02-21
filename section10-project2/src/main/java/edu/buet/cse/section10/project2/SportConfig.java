@@ -1,4 +1,4 @@
-package edu.buet.cse.section10.project3;
+package edu.buet.cse.section10.project2;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
