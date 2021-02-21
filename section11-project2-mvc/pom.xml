@@ -12,7 +12,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>Section 11 - Project 2</name>
-  <description>This project demonstrates some features of Spring MVC</description>
+  <description>This project demonstrates how to use InternalResourceViewResolver during dispatching</description>
 
   <dependencies>
     <dependency>
