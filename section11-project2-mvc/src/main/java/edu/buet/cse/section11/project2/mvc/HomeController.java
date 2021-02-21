@@ -13,4 +13,4 @@ public class HomeController {
     modelMap.addAttribute("username", "Clark Kent");
     return "welcome";
   }
-};
+}

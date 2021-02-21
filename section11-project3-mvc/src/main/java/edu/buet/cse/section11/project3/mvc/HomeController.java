@@ -22,4 +22,4 @@ public class HomeController {
     modelMap.addAttribute("bookList", bookList);
     return "welcome";
   }
-};
+}
