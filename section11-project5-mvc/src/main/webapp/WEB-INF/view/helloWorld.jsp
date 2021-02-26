@@ -6,5 +6,5 @@
   <title>Result form</title>
 </head>
 <body>
-  <p>The student name in upper case is <c:out value="${upperCaseName}" /></p>
+  <p>The message is <c:out value="${message}" /></p>
 </body>

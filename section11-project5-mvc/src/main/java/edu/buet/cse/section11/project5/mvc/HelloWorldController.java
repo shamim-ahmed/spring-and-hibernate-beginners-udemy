@@ -16,7 +16,8 @@ public class HelloWorldController {
   @RequestMapping("/processForm")
   public String processForm(@RequestParam String studentName, ModelMap modelMap) {
     String convertedName = studentName != null ? studentName.toUpperCase() : null;
-    modelMap.put("upperCaseName", convertedName);
+    String result = "Yo! " + convertedName;
+    modelMap.put("message", result);
 
     return "helloWorld";
   }
