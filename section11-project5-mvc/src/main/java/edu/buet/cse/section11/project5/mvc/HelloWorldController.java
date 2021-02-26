@@ -14,7 +14,7 @@ public class HelloWorldController {
   }
 
   @RequestMapping("/processForm")
-  public String processForm(@RequestParam String studentName, ModelMap modelMap) {
+  public String processForm(@RequestParam("studentName") String studentName, ModelMap modelMap) {
     String convertedName = studentName != null ? studentName.toUpperCase() : null;
     String result = "Yo! " + convertedName;
     modelMap.addAttribute("message", result);
