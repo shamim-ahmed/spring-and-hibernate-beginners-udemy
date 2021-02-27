@@ -6,8 +6,6 @@ import java.util.List;
 
 public class Student {
 
-  private static final String[] COUNTRY_OPTIONS = {"Bangladesh", "Nepal", "Bhutan", "Sri Lanka"};
-
   private String firstName;
   private String lastName;
   private String country;
@@ -34,10 +32,6 @@ public class Student {
 
   public void setCountry(String country) {
     this.country = country;
-  }
-
-  public List<String> getCountryOptions() {
-    return Collections.unmodifiableList(Arrays.asList(COUNTRY_OPTIONS));
   }
 
   @Override
