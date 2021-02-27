@@ -12,7 +12,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>Section 14 - Project 3</name>
-  <description>This project demonstrates basic usage of Spring form tags</description>
+  <description>This project demonstrates an alternative way to derive values in drop down list</description>
 
   <dependencies>
     <dependency>
