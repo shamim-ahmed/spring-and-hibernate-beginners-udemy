@@ -8,10 +8,10 @@
     <relativePath /> <!-- lookup parent from repository -->
   </parent>
   <groupId>edu.buet.cse</groupId>
-  <artifactId>section14-project1-mvc</artifactId>
+  <artifactId>section14-project2-mvc</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>Section 14 - Project 1</name>
+  <name>Section 14 - Project 2</name>
   <description>This project demonstrates basic usage of Spring form tags</description>
 
   <dependencies>
