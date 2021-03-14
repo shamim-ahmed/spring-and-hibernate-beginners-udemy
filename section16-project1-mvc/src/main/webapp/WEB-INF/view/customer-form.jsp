@@ -6,7 +6,7 @@
 <html>
 <head>
   <title>Student Form</title>
-  <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/css/style.css"></link>  
+  <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/css/style.css"></link>
 </head>
 <body>
   <header>
@@ -20,6 +20,9 @@
     <br><br>
     Last name(*): <form:input path="lastName"/>
     <form:errors path="lastName" cssClass="error"/>
+    <br><br>
+    Free passes: <form:input path="freePasses" />
+    <form:errors path="freePasses" cssClass="error" />
     <br><br>
     <input type="submit" value="Submit"/>
   </form:form>
