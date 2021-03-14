@@ -11,7 +11,7 @@
   <artifactId>section15-project1-mvc</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>Section 14 - Project 6</name>
+  <name>Section 15 - Project 1</name>
   <description>This project demonstrates how to validate input fields using built-in mechanisms of Spring</description>
 
   <dependencies>
