@@ -21,7 +21,7 @@ public class QueryStudentDemo3 {
     try {
       Transaction transaction = session.beginTransaction();
       Query query = session
-          .createQuery("from Student s WHERE s.firstName = :firstName AND s.lastName = :lastName");
+          .createQuery("from Student s where s.firstName = :firstName and s.lastName = :lastName");
       query.setParameter("firstName", "John");
       query.setParameter("lastName", "Doe");
 
