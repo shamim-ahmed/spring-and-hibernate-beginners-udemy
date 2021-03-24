@@ -15,7 +15,7 @@ public class UpdateStudentDemo2 {
     SessionFactory sessionFactory = new Configuration().configure("hibernate.cfg.xml")
         .addAnnotatedClass(Student.class).buildSessionFactory();
     Session session = sessionFactory.getCurrentSession();
-    final long primaryKey = 1L;
+    final long id = 1L;
 
     try {
       Transaction transaction = session.beginTransaction();
@@ -23,11 +23,11 @@ public class UpdateStudentDemo2 {
       // update the student record
       Query query = session.createQuery("update Student s set s.email = :email where s.id = :id");
       query.setParameter("email", "dooby@yahoo.com");
-      query.setParameter("id", primaryKey);
+      query.setParameter("id", id);
       query.executeUpdate();
 
       // print the updated data
-      Student student = session.get(Student.class, primaryKey);
+      Student student = session.get(Student.class, id);
       System.out.println(student);
 
       transaction.commit();

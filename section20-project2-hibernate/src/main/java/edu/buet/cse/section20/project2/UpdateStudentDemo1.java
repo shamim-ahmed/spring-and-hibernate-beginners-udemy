@@ -13,13 +13,13 @@ public class UpdateStudentDemo1 {
     SessionFactory sessionFactory = new Configuration().configure("hibernate.cfg.xml")
         .addAnnotatedClass(Student.class).buildSessionFactory();
     Session session = sessionFactory.getCurrentSession();
-    final long primaryKey = 1L;
+    final long id = 1L;
 
     try {
       Transaction transaction = session.beginTransaction();
 
       // fetch the student object and print it
-      Student student = session.get(Student.class, primaryKey);
+      Student student = session.get(Student.class, id);
       System.out.println("Before update: " + student);
 
       // update the student object
@@ -29,7 +29,7 @@ public class UpdateStudentDemo1 {
       session.update(student);
 
       // fetch and print the updated student object
-      Student updatedStudent = session.get(Student.class, primaryKey);
+      Student updatedStudent = session.get(Student.class, id);
       System.out.println("After update: " + updatedStudent);
 
       transaction.commit();
