@@ -18,7 +18,6 @@ public class DeleteStudentDemo2 {
     Session session2 = null;
 
     try {
-
       // create a new student
       session1 = sessionFactory.getCurrentSession();
       Transaction transaction1 = session1.beginTransaction();
