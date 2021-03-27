@@ -32,6 +32,8 @@ public class GetInstructorDetailDemo {
       }
 
       transaction.commit();
+    } catch (Exception ex) {
+      System.err.println("Error: " + ex);
     } finally {
       session.close();
       sessionFactory.close();
