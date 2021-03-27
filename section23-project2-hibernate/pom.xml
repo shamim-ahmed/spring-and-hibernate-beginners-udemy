@@ -11,7 +11,7 @@
   <artifactId>section23-project2-hibernate</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>Section 23 - Project 1</name>
+  <name>Section 23 - Project 2</name>
   <description>This project demonstrates how to implement bidirectional one-to-one mapping using Hibernate</description>
 
   <dependencies>
