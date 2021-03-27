@@ -75,6 +75,10 @@ public class Instructor {
   }
 
   public List<Course> getCourses() {
+    if (courses == null) {
+      courses = new ArrayList<>();
+    }
+
     return courses;
   }
 

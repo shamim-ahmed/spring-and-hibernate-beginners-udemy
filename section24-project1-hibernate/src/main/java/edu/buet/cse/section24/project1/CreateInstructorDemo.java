@@ -1,9 +1,12 @@
-package edu.buet.cse.section24.project1.model;
+package edu.buet.cse.section24.project1;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
+
+import edu.buet.cse.section24.project1.model.Course;
+import edu.buet.cse.section24.project1.model.Instructor;
 
 public class CreateInstructorDemo {
 
