@@ -1,4 +1,4 @@
-package edu.buet.cse.section24.project1;
+package edu.buet.cse.section24.project2;
 
 import java.util.List;
 
@@ -9,10 +9,10 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
-import edu.buet.cse.section24.project1.model.Course;
-import edu.buet.cse.section24.project1.model.Instructor;
+import edu.buet.cse.section24.project2.model.Course;
+import edu.buet.cse.section24.project2.model.Instructor;
 
-public class DeleteInstructorDemo {
+public class DeleteInstructorWithCourses {
 
   public static void main(String... args) {
     SessionFactory sessionFactory = new Configuration().configure("hibernate.cfg.xml")
@@ -29,10 +29,8 @@ public class DeleteInstructorDemo {
       if (resultList.size() > 0) {
         Instructor instructor = resultList.get(0);
 
-        // avoid foreign key constraint failure
         for (Course course : instructor.getCourses()) {
-          course.setInstructor(null);
-          session.save(course);
+          session.remove(course);
         }
 
         session.remove(instructor);
