@@ -1,4 +1,4 @@
-package edu.buet.cse.section23.project1;
+package edu.buet.cse.section23.project2;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
-import edu.buet.cse.section23.project1.model.Instructor;
-import edu.buet.cse.section23.project1.model.InstructorDetail;
+import edu.buet.cse.section23.project2.model.Instructor;
+import edu.buet.cse.section23.project2.model.InstructorDetail;
 
 public class DeleteInstructorDemo {
 

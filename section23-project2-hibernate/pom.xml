@@ -8,11 +8,11 @@
     <relativePath /> <!-- lookup parent from repository -->
   </parent>
   <groupId>edu.buet.cse</groupId>
-  <artifactId>section23-project1-hibernate</artifactId>
+  <artifactId>section23-project2-hibernate</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>Section 23 - Project 1</name>
-  <description>This project demonstrates how to implement unidirectional one-to-one mapping using Hibernate</description>
+  <description>This project demonstrates how to implement bidirectional one-to-one mapping using Hibernate</description>
 
   <dependencies>
     <dependency>
